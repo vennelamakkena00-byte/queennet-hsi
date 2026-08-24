@@ -1,0 +1,11 @@
+[2026-08-24 20:08:48] [INFO] ============================================================
+[2026-08-24 20:08:48] [INFO] STARTING QUEENNET TRAINING RUN
+[2026-08-24 20:08:48] [INFO] ============================================================
+[2026-08-24 20:08:48] [INFO] Loaded config: configs/indian_pines.yaml
+[2026-08-24 20:08:48] [INFO] Local .mat files not found for indian_pines. Generating synthetic HSI cube for experiment pipeline...
+[2026-08-24 20:08:49] [INFO] Dataset split: Train samples=180, Val samples=90, Classes=9
+[2026-08-24 20:08:49] [INFO] Model instantiated: Trainable Parameters = 2,637 (QC: 72, QE: 36)
+[2026-08-24 20:09:26] [INFO] Saved training curves figure to: outputs\indian_pines\figures\training_curves.png
+[2026-08-24 20:09:26] [INFO] ============================================================
+[2026-08-24 20:09:26] [INFO] [SUCCESS] Training finished successfully!
+[2026-08-24 20:09:26] [INFO] ============================================================

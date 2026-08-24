@@ -1,0 +1,34 @@
+﻿# Pavia University Reproduction Configuration (Paper Benchmark)
+seed: 42
+
+dataset:
+  name: "pavia_university"
+  image_path: "data/raw/pavia_university/PaviaU.mat"
+  gt_path: "data/raw/pavia_university/PaviaU_gt.mat"
+  in_bands: 103
+  num_classes: 9
+  patch_size: 32
+  train_samples_per_class: 20
+  val_samples_per_class: 10
+  test_samples_per_class: 30
+  selected_classes: null
+
+model:
+  in_bands: 103
+  num_classes: 9
+  num_qubits: 12
+  depth_L: 2
+  patch_size: 32
+  device_name: "default.qubit"
+  diff_method: "backprop"
+
+training:
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  batch_size: 8
+  max_epochs: 300
+  patience: 25
+  loss: "cross_entropy"
+
+output:
+  dir: "outputs/pavia_university"

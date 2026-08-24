@@ -1,0 +1,22 @@
+[2026-08-24 20:07:37] [INFO] =================================================================
+[2026-08-24 20:07:37] [INFO] QUEENNET QUANTUM DEPTH (L=1..5) ABLATION STUDY
+[2026-08-24 20:07:37] [INFO] =================================================================
+[2026-08-24 20:07:37] [INFO] 
+>>> Running Quantum Depth L = 1 ...
+[2026-08-24 20:07:44] [INFO] L=1 Results: Our OA=46.88% (Paper=93.37%) | Our Params=1372 (Paper=1249) | Time=7.5s
+[2026-08-24 20:07:44] [INFO] 
+>>> Running Quantum Depth L = 2 ...
+[2026-08-24 20:07:52] [INFO] L=2 Results: Our OA=25.00% (Paper=96.05%) | Our Params=1408 (Paper=1393) | Time=7.6s
+[2026-08-24 20:07:52] [INFO] 
+>>> Running Quantum Depth L = 3 ...
+[2026-08-24 20:08:02] [INFO] L=3 Results: Our OA=40.62% (Paper=95.5%) | Our Params=1444 (Paper=1537) | Time=9.7s
+[2026-08-24 20:08:02] [INFO] 
+>>> Running Quantum Depth L = 4 ...
+[2026-08-24 20:08:14] [INFO] L=4 Results: Our OA=25.00% (Paper=94.97%) | Our Params=1480 (Paper=1681) | Time=12.1s
+[2026-08-24 20:08:14] [INFO] 
+>>> Running Quantum Depth L = 5 ...
+[2026-08-24 20:08:28] [INFO] L=5 Results: Our OA=28.12% (Paper=93.68%) | Our Params=1516 (Paper=1825) | Time=14.1s
+[2026-08-24 20:08:28] [INFO] 
+Saved ablation results table to: outputs\ablation\metrics\depth_ablation.csv
+[2026-08-24 20:08:29] [INFO] Saved depth ablation curves figure to: outputs\ablation\figures\ablation_depth_curves.png
+[2026-08-24 20:08:29] [INFO] [SUCCESS] Full Depth Ablation Study complete!

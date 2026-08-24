@@ -1,0 +1,30 @@
+[2026-08-24 20:09:48] [INFO] ============================================================
+[2026-08-24 20:09:48] [INFO] STARTING QUEENNET EVALUATION
+[2026-08-24 20:09:48] [INFO] ============================================================
+[2026-08-24 20:09:48] [INFO] Loading checkpoint from: outputs\indian_pines\checkpoints\best_model.pt
+[2026-08-24 20:09:55] [INFO] ============================================================
+[2026-08-24 20:09:55] [INFO] Overall Accuracy (OA): 31.67%
+[2026-08-24 20:09:55] [INFO] Average Accuracy (AA): 31.67%
+[2026-08-24 20:09:55] [INFO] Cohen's Kappa:         23.12%
+[2026-08-24 20:09:55] [INFO] ============================================================
+[2026-08-24 20:09:55] [INFO] 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0     1.0000    0.9000    0.9474        20
+           1     0.0000    0.0000    0.0000        20
+           2     0.1681    0.9500    0.2857        20
+           3     0.0000    0.0000    0.0000        20
+           4     0.0000    0.0000    0.0000        20
+           5     0.0000    0.0000    0.0000        20
+           6     0.0000    0.0000    0.0000        20
+           7     0.0000    0.0000    0.0000        20
+           8     0.4082    1.0000    0.5797        20
+
+    accuracy                         0.3167       180
+   macro avg     0.1751    0.3167    0.2014       180
+weighted avg     0.1751    0.3167    0.2014       180
+
+[2026-08-24 20:09:56] [INFO] Saved confusion matrix figure to: outputs\indian_pines\figures\confusion_matrix.png
+[2026-08-24 20:09:57] [INFO] Saved classification map to: outputs\indian_pines\classification_maps\classification_map.png
+[2026-08-24 20:09:57] [INFO] [SUCCESS] Evaluation completed successfully!

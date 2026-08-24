@@ -1,0 +1,34 @@
+﻿# Indian Pines Development Configuration
+seed: 42
+
+dataset:
+  name: "indian_pines"
+  image_path: "data/raw/indian_pines/Indian_pines_corrected.mat"
+  gt_path: "data/raw/indian_pines/Indian_pines_gt.mat"
+  in_bands: 200
+  num_classes: 16
+  patch_size: 32
+  train_samples_per_class: 20
+  val_samples_per_class: 10
+  test_samples_per_class: 20
+  selected_classes: null
+
+model:
+  in_bands: 200
+  num_classes: 16
+  num_qubits: 12
+  depth_L: 2
+  patch_size: 32
+  device_name: "default.qubit"
+  diff_method: "backprop"
+
+training:
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  batch_size: 8
+  max_epochs: 50
+  patience: 15
+  loss: "cross_entropy"
+
+output:
+  dir: "outputs/indian_pines"

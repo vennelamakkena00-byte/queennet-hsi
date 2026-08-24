@@ -1,0 +1,6 @@
+[2026-08-24 20:07:39] [INFO] Starting QueenNet Training for up to 2 epochs...
+[2026-08-24 20:07:41] [INFO] Epoch [001/002] Train Loss: 1.4072 Acc: 21.88% | Val Loss: 1.3767 Acc: 43.75% | Time: 2.23s
+[2026-08-24 20:07:41] [INFO] --> Saved best model checkpoint to outputs\ablation\depth_L1\checkpoints\best_model.pt
+[2026-08-24 20:07:44] [INFO] Epoch [002/002] Train Loss: 1.3765 Acc: 43.75% | Val Loss: 1.3603 Acc: 43.75% | Time: 2.19s
+[2026-08-24 20:07:44] [INFO] --> Saved best model checkpoint to outputs\ablation\depth_L1\checkpoints\best_model.pt
+[2026-08-24 20:07:44] [INFO] Saved training history to outputs\ablation\depth_L1\metrics\training_history.csv
